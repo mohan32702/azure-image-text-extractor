@@ -18,7 +18,7 @@ This phase implements the solution with **public access**, useful for learning a
 
 ### 1. Create a Storage Account (LRS, public access)
 - Name: `securefileupload`
-- Create a Blob container: `uploads`
+- Create a Blob container: `imageanalysis`
 
 ### 2. Create a Web App
 - Runtime: Python 3.10
