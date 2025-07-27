@@ -10,6 +10,11 @@ This project demonstrates a secure, end-to-end Azure solution where:
   - **Phase 1**: Public access (learning purpose)
   - **Phase 2**: Fully private architecture using **Private Endpoints** and **VNet Integration**
 
+🔐 If a Web App or Function App needs to access any private resource (Blob, Table, Key Vault, etc.), it must:
+
+Have VNet Integration enabled, and
+
+The private resource must be in the same VNet (or peered)
 ---
 
 ## 🔁 Architecture
