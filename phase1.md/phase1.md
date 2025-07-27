@@ -22,7 +22,7 @@ This phase implements the solution with **public access**, useful for learning a
 
 ### 2. Create a Web App
 - Runtime: Python 3.10
-- Hosting: Linux or Windows
+- Hosting: Linux
 - Add this environment variable:
 BLOB_CONNECTION_STRING = <your-storage-connection-string>
 
@@ -46,7 +46,7 @@ upload.html
 ## ⚙️ Function App Setup
 
 ### 1. Create a Function App (Consumption or Premium)
-- Language: .NET
+- Language: .NET 8, windows
 - Trigger: Blob
 - Input container: `imageanalysis` (same as blob)
 - Storage: Use same as blob account
